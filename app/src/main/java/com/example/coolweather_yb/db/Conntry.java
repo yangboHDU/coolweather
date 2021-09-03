@@ -1,6 +1,8 @@
 package com.example.coolweather_yb.db;
 
-public class Conntry {
+import org.litepal.crud.DataSupport;
+
+public class Conntry extends DataSupport {
 
     private int id;
 
